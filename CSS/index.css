@@ -349,6 +349,15 @@ footer h2{
 
 }
 
+.insta_id{
+    color: white;
+    text-decoration: none;
+}
+
+.insta_id:hover{
+    color: cadetblue;
+}
+
 .foot{
     display: flex;
     flex-direction: column;

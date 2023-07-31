@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- after 5 seconds the page will be redricted to the particular url -->
+    <!-- <meta http-equiv="refresh" content="6 ; url = books I prefer/Smart Thinking Skills for Critical Understanding and Writing.pdf" > -->
+    
     <title>BOOKS I PREFER</title>
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" media="screen and (max-width:1170px)" href="CSS/phone.css">
+    <script src="JS/index.js"></script>
+   
 <style>
     html{
         scroll-behavior: smooth;
@@ -45,7 +51,7 @@
     <section id="services-container">
         <h1 class="h-secondary center">TOP TEIRS</h1>
         <div id="services">
-            <div class="box">
+            <div class="box" onclick="password()">
                 <a href="books I prefer/Logic Made Easy How to Know When Language Deceives You.pdf "
                     target="_blank"><img src="book_covers/book_cover1.jpg" alt=""></a>
                 <div>
@@ -54,7 +60,7 @@
                     <p>Click on this book to Explore a new world of logic and build a strong reasoning</p>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" onclick="password()">
                 <a href="books I prefer/Smart Thinking Skills for Critical Understanding and Writing.pdf"
                     target="_blank"><img src="book_covers/book_cover2.jpg" alt=""></a>
                 <div>
@@ -63,9 +69,8 @@
                     <p>Develop your style of this with this great book and work up smarter rather then harder</p>
                 </div>
             </div>
-            <div class="box">
-                <a href="books I prefer/Think Like a Rocket Scientist Simple Strategies You Can Use to Make Giant Leaps in Work and Life.pdf"
-                    target="_blank"><img src="book_covers/book_cover3.jpg" alt=""></a>
+            <div class="box" >
+                   <a href="#" id="link3"><img src="book_covers/book_cover3.jpg" alt="" onclick="password()" ></a>
                 <div>
 
                     <h2> THINK LIKE A ROCKET SCIENTIST</h2>
@@ -136,13 +141,13 @@
         <div class="foot">
             <h2>BOOKISH</h2>
             <p>
-                OUR COMPANY DEALS WITH PROVIDING PAID CONTANT FOR FREE AND DESTROY ALL THE BARIOURS THAT MAY LET YOU DOWN TO GROW GREAT
+                OUR COMPANY DEALS WITH PROVIDING PAID CONTENT FOR FREE AND DESTROY ALL THE BARIOURS THAT MAY LET YOU DOWN TO GROW GREAT
             </p>
         </div>
 
         <div class="foot">
             <h2>USEFUL LINKS</h2>
-            <P> <a href="https://www.instagram.com/_bhupeshhh__/" target="_blank">_bhupeshhh__</a></P>
+            <P> INSTA ID :<a href="https://www.instagram.com/_bhupeshhh__/" target="_blank"  class="insta_id">_bhupeshhh__</a></P>
             <!-- <P> MY LINKDEN PROFILE</P> -->
         </div>
 
