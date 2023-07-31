@@ -11,7 +11,7 @@ function password() {
 
             window.Location = "books I prefer/Smart Thinking Skills for Critical Understanding and Writing.pdf";
 
-            document.getElementById('link3').innerHTML = "books I prefer/Smart Thinking Skills for Critical Understanding and Writing.pdf"
+            // document.getElementById('link3').innerHTML = "books I prefer/Smart Thinking Skills for Critical Understanding and Writing.pdf"
 
             window.localStorage = "books I prefer/Smart Thinking Skills for Critical Understanding and Writing.pdf";
 
