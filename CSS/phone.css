@@ -39,14 +39,21 @@ justify-self: center;
 /* services  */
 #services{
 display: flex;
+align-items: center;
 flex-direction: column;
 /* flex-wrap: wrap; */
 }
 
-#services-container::before{
+#services-container1::before {
+    height: 1137px;
+}
+#servicescontainer2::before {
     height: 1137px;
 }
 
+#services .box{
+    width: 90%;
+}
 #services .box a img {
     margin: 15px;
     height: 166px;

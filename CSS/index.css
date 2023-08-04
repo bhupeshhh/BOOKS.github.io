@@ -135,20 +135,34 @@ html {
     transition: all 0.3s ease-in-out 0s;
 
 }
-#services-container::before{
+#services-container1::before {
     content: "";
     background: url(../BACKGROUNDS/content_bg.jpg) no-repeat center center/cover;
-    height: 520px;
+    height: 469px;
     width: 100%;
     position: absolute;
     z-index: -56;
-    opacity: .3;
+    opacity: .5;
 }
-#services-container{
+#servicescontainer2::before {
+    content: "";
+    background: url(../BACKGROUNDS/content_bg.jpg) no-repeat center center/cover;
+    height: 469px;
+    width: 100%;
+    position: absolute;
+    z-index: -56;
+    opacity: .5;
+}
+#services-container1 , #servicescontainer2{
     margin: 0px;
 }
 
+#servicescontainer2{
+    display: none;
+}
+
 #services .box {
+    width: 1000px;
     margin: 10px;
     display: flex;
     border: 2px solid rebeccapurple;
@@ -164,7 +178,7 @@ html {
     color: whitesmoke;
 }
 
-#services .box a img {
+#services .box  img {
     margin: 25px;
     height: 225px;
     padding: 5px;
@@ -177,11 +191,12 @@ html {
 
 #services .box div {
     padding: 13px;
+    /* flex-direction: row; */
     display: flex;
     text-align: center;
     align-content: space-around;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     transition: all 0.3s ease-in-out 0s;
@@ -236,7 +251,7 @@ html {
 }
 
 #client-section h2 {
-    margin-top: 82px;
+    margin-top: 25px;
     color: #ef310f;
     text-shadow: 9px 3px 20px #be9f92;
     position: relative;
