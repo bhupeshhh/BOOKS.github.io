@@ -20,9 +20,9 @@ justify-self: center;
     
     color: rgb(255, 255, 255);
     display: block;
-    padding: 2px 5px;
+    padding: 2px 4px;
     margin: 15px 4px;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 /* home  */
@@ -52,12 +52,16 @@ flex-direction: column;
 }
 
 #services .box{
-    width: 90%;
+    width: 95%;
 }
-#services .box a img {
+#services .box img {
     margin: 15px;
     height: 166px;
     padding: 3px;
+}
+#services .box div h2 {
+       margin: 2px;
+    font-size: 1.2rem;
 }
 
 /* clients-section */
@@ -71,6 +75,10 @@ height: 420px;
 }
 
 /* contact-section */
+
+#contact .input label{
+    font-size: 1.5rem;
+}
 #contact textarea , input{
  width: 85%;
 }
@@ -83,14 +91,22 @@ height: 420px;
 
 .footerr{
     flex-direction: column;
-    height: 510px;
+    height: 585px;
 }
 .footerr:before{
-    height: 520px;
+    height: 570px;
 }
 
 .foot{
-    width: 80%;
+    display: flex;
+    width: 85%;
+    height: 135px;
+    align-content: space-between;
+    justify-content: flex-start;
+}
+.foot p {
+    text-align: center;
+    font-size: .6rem;
 }
 
 /* utility classes  */
@@ -103,7 +119,7 @@ height: 420px;
 .h-secondary {
     font-size: 2rem;
     padding: 5px;
-    margin: 18px 30px 17px 30px;
+    margin: 35px 30px 17px 30px;
 }
 
 .btn {
